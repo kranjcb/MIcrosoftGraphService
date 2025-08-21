@@ -19,16 +19,16 @@ Se pravi je treba narediti .Net 9 exe program MicrosoftGraphService.
 	- Če ob startupu MicrosoftGraphService pride do napake, se ta zapiše in zapre proces z ExitCode = 1 (tako da bo server vedel)
 	- Če ob procesiranju requesta pride do napake, to javi nazaj serverju v standardni obliki (imamo objekte za to... se pravi ta objekt deserializiran)
 	 
-Tu je primer oz. izsek iz enega obstoječega primera. Lahko se uporabi kot muštr, ni pa nujno.
+Tu je primer oz. izsek iz enega obstoječega primera. Lahko se uporabi kot muštr, ni pa nujno, so tudi primeri kode.
 Treba je narediti še unit teste & sonarqube zadeve... in klienta (testni C# projekt) da se bo povezal na to (tudi če bo kaj sprememb pri samih pipcah).
 
 Za ClientId, Tennant, .... se lahko uporabiš kakšen testni account na Microsft Entra ID.
 Tu ne vem točno, če ne bo šlo ti lahko jaz probam testne naredit.
 
 V tem projektu se še uporablja Newtonsoft.Json, NLog za logiranje, .... 
-Koda je kot je, nekaj bi bilo verjetno še za predelat....
+Koda je kot je, verjetno ni optimalna, je bila delana za .net 3.5, potem dopolnjena za 4.5 in 4.8.. nekaj bi bilo verjetno še za predelat....
 V MicosoftGraphUsages.cs so primeri uporabe, oz. navodila kaj mora bit podprto....
-
+Kar je v Model bi bilo share-ano še s serverjem, da bodo isti objekti uporabljeni na obeh straneh.
 
 ## Project Structure
 
