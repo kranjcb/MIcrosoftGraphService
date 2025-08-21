@@ -7,6 +7,7 @@ Kasneje bo še uporaba SharedPoint, ....
 Za Microsoft.Graph uporabljamo tole: https://www.nuget.org/packages/Microsoft.Graph
 
 Se pravi je treba narediti .Net 9 exe program MicrosoftGraphService. 
+
 	- Komunikacija med serverjem in MicrosoftGraphService bo preko named pipes (že imamo sample kode). 
 	- Komunikacija: Server bo po potrebi štartal MicrosoftGraphService, ta bo odprl NamedPipeServerStream, server se bo povezal na njega preko NamedPipeClientStream.
 	- Komunikacija: Server pošlje vsebino na MicrosoftGraphService, ta jo sprocesira in pošlje nazaj odgovor. Ala tipični server. Kasneje bomo to predelali v REST API.
