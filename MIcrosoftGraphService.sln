@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIcrosoftGraphService", "MIcrosoftGraphService.csproj", "{7A6EFD24-03A2-3B84-92BB-862D6711EED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A6EFD24-03A2-3B84-92BB-862D6711EED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6EFD24-03A2-3B84-92BB-862D6711EED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6EFD24-03A2-3B84-92BB-862D6711EED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6EFD24-03A2-3B84-92BB-862D6711EED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F46C290-7902-48BC-BE65-CC14BFF88B72}
+	EndGlobalSection
+EndGlobal
